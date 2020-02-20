@@ -24,7 +24,7 @@ def prime?(n)
   while (a<n)
     puts a
     while (b<n)
-    
+
       if a*b == n
         return false
       end
