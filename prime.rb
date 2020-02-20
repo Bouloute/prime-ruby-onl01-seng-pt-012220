@@ -22,7 +22,7 @@ def prime?(n)
   a,b = 2,2
   while (a<n)
     while (b<n)
-      if a*b == n 
+      if a*b == n
         return false
       end
       b += 1
