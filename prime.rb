@@ -31,6 +31,7 @@ def prime?(n)
       end
       b += 1
     end
+  b = 2
   a += 1
   end
   puts a
