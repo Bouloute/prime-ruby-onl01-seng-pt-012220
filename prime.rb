@@ -26,7 +26,7 @@ def prime?(n)
     puts a
     while (b<n)
       puts b
-      if a*b == n
+      if (a*b == n)
         return false
       end
       b += 1
