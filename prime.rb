@@ -23,7 +23,6 @@ def prime?(n)
   a,b = 2,2
   while (a<n)
     while (b<n)
-      binding.pry
       if a*b == n
         return false
       end
