@@ -18,14 +18,13 @@ end
 
 def prime?(n)
   if (n <=1)
-     return false
+    return false
   end
   a,b = 2,2
   while (a<n)
+    puts a
     while (b<n)
-      if a == 41 #&& b == 42
-        puts a
-      end
+    
       if a*b == n
         return false
       end
@@ -39,3 +38,5 @@ def prime?(n)
   puts
   return true
 end
+
+prime?(1763)
