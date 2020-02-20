@@ -21,7 +21,7 @@ def prime?(n)
     return false
   end
   a,b = 2,2
-  while (a<n)
+  while (a<45)
     puts a
     while (b<n)
 
