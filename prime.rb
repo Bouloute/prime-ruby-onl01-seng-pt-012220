@@ -22,9 +22,10 @@ def prime?(n)
   end
   a,b = 2,2
   while (a<45)
+    puts
     puts a
     while (b<n)
-
+      puts b
       if a*b == n
         return false
       end
