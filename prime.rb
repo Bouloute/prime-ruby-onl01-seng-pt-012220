@@ -1,4 +1,4 @@
-def prime?(n)
+def prime(n)
   #0, 1 and degatives aren't prime numbers
   if (n <=1)
      return false
@@ -11,6 +11,23 @@ def prime?(n)
       return false
     end
     i += 1
+  end
+  return true
+end
+
+def prime?(n)
+  if (n <=1)
+     return false
+  end
+  a,b = 2,2
+  while (a<n)
+    while (b<n)
+      if a*b == n 
+        return false
+      end
+      b += 1
+    end
+  a += 1
   end
   return true
 end
