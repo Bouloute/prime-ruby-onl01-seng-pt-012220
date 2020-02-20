@@ -1,3 +1,4 @@
+require 'pry'
 def prime(n)
   #0, 1 and degatives aren't prime numbers
   if (n <=1)
