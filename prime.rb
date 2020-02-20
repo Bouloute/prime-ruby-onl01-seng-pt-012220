@@ -30,6 +30,9 @@ def prime?(n)
     end
   a += 1
   end
-  puts n
+  puts a 
+  puts b 
+  puts n 
+  puts
   return true
 end
