@@ -24,7 +24,7 @@ def prime?(n)
   while (a<n)
     while (b<n)
       if a == 41 && b == 42
-        binding.pry 
+        binding.pry
       end
       if a*b == n
         return false
