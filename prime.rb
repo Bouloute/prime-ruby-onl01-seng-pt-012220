@@ -33,5 +33,3 @@ def prime?(n)
   end
   return true
 end
-
-puts prime?(1763)
