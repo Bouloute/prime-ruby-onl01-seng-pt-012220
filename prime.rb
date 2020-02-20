@@ -31,10 +31,6 @@ def prime?(n)
   b = 2
   a += 1
   end
-  puts a
-  puts b
-  puts n
-  puts
   return true
 end
 
