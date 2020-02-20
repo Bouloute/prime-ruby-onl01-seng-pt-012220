@@ -30,5 +30,6 @@ def prime?(n)
     end
   a += 1
   end
+  puts n 
   return true
 end
